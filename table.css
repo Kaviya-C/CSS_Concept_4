@@ -1,0 +1,42 @@
+table ,tr,th,td{
+
+ border: 3px solid red;
+ border-collapse: collapse;
+}
+
+
+table td:nth-of-type(even){
+ background-color: bisque; 
+}
+
+.table{
+ margin-top: 100px;
+ display: table;
+ width: 300px;
+ border: 2px solid black;
+}
+
+.row{
+
+ display: table-row;
+}
+
+.col{
+ border: 2px solid red;
+ padding: 20px 20px;
+ display: table-cell;
+}
+
+.header{
+ display: table-header-group;
+ text-align: center;
+ color: blue;
+ background-color: rgb(255, 0, 238);
+}
+
+.box{
+ width:200px;
+ height: 200px;
+ background:-webkit-linear-gradient(yellow,green);
+ border-radius: 90px 0 90px 0;
+}
